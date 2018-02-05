@@ -14933,6 +14933,10 @@ Epoch 20/20
 The output was much better than I expected. It could clearly detect, whether the given image belongs to a dog, human-face or neither. 
 For the dog images, it could predict the breed correctly.
 For a human face, the output was a reasonable resembling dog breed.</p>
+<p>Following can be done as points of improvement:</p>
+<p>1) As the reviewer of my first submission has suggested, one can try "experimenting with adadelta, adam and nadam" optimizers, as well as different architectures.</p>
+<p>2) Although in the limited set of experiments, no misclasification of human faces are oberved, the experiments on Staep 1 indicate, that the success rate of detecting human faces in human files is 98%, while the detection rate of human faces in dog files is 11%. This can be improved by "DeepID" approaches (<a href="http://cs.wellesley.edu/~vision/slides/Qianli_summary_deep_face_models.pdf">http://cs.wellesley.edu/~vision/slides/Qianli_summary_deep_face_models.pdf</a>) or even with CNNs. Again, this was suggested by the reviewer of my first submission.</p>
+<p>3) In the given sample set, for both dog breeds as well as human faces, a clear view can be observed. Image augmentation techniques can help improve the classification and prediction performance.</p>
 
 </div>
 </div>
